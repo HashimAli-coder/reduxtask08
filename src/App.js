@@ -1,11 +1,12 @@
 import React from 'react'
 import AddTodo from './components/AddTodo';
 import Todos from './components/Todos';
+import Hero from './components/Hero';
 
 const App = () => {
   return (
     <>
-   <h1 className='font-bold text-center text-5xl'>Work With Schedule</h1>
+   <Hero />
    <AddTodo />
    <Todos />
     </>
